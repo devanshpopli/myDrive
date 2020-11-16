@@ -1,0 +1,15 @@
+<%- include('partials/header_up') %>
+
+	<!--<div class="container align_div">-->
+		<form action="http://localhost:3000/upload" method="post" id="uploadForm" ref="uploadForm" enctype="multipart/form-data">
+      <input type = "file" name = "sampleFile">
+      <input type="submit" value="Upload">
+    </form>
+	<% if(query){ %>
+	<script type="text/javascript">
+		alert("File Uploaded Successfully!");
+	</script>
+    <% } %>	
+	<!--</div>-->
+
+<%- include('partials/footer_up') %>

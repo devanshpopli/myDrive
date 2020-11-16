@@ -1,0 +1,24 @@
+<%- include('partials/header_Sign') %>
+
+
+	<div class="align_card">
+	<h3>Upload on myDrive !</h3>	
+		<div class ="align_div">
+			<form id="form1" class="input-group" autocomplete="off" method="post" action="/signin">
+				<label>Email</label>
+				<input type="email" name="email" class="input-field"><br>
+				<label>Password</label>
+				<input type="password" name="password" class="input-field"><br>
+				<a class ="align_button" type="submit" href="javascript:;" onclick="document.getElementById('form1').submit();">
+				<span></span>
+        		<span></span>
+       			<span></span>
+        		<span></span>
+        		Sign In
+    			</a>
+			</form>
+		</div>
+		
+  	</div>
+
+<%- include('partials/footer') %>

@@ -1,0 +1,28 @@
+<%- include('partials/header_Reg') %>
+
+
+	<div class="align_card">
+	<h3>Join myDrive Today!</h3>	
+		<div class ="align_div">
+			<form id="form1" class="input-group" autocomplete="off" method="post" action="/register">
+				<label>First Name</label><br>
+				<input type="text" name="fname" class="input-field" >
+				<label>Last Name</label>
+				<input type="text" name="lname" class="input-field"><br>
+				<label>Email</label>
+				<input type="email" name="email" class="input-field"><br>
+				<label>Password</label>
+				<input type="password" name="password" class="input-field"><br>
+				<a class ="align_button" type="submit" href="javascript:;" onclick="document.getElementById('form1').submit();">
+				<span></span>
+        		<span></span>
+       			<span></span>
+        		<span></span>
+        		Register
+    			</a>
+			</form>
+		</div>
+		
+  	</div>
+
+<%- include('partials/footer') %>
