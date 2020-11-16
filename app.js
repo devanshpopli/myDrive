@@ -15,7 +15,7 @@ let awsConfig = {
     "accessKeyId": 
 };
 
-s3 = new AWS.S3({accessKeyId:"AKIAWYHVLUHLSKX5BV4K", secretAccessKey : "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"});
+s3 = new AWS.S3();
 
 //AWS.config.update(awsConfig);
 
